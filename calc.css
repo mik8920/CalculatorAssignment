@@ -1,0 +1,91 @@
+body {
+    background-color: rgba(0, 0, 0, 0.856);
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .calculatorContainer {
+    border: 5px solid rgba(0, 0, 0, 0.37);
+    background-color: rgba(255, 255, 255, 0.555);
+    border-radius: 3px;
+    height: 350px;
+    width: 245px;
+  }
+  
+  .displayContainer {
+    border: 3px solid rgba(255, 255, 255, 0.637);
+    background-color: rgba(163, 161, 161, 0.274);
+    font-size: 30px;
+    height: 40px;
+    text-align: right;
+    padding-right: 10px;
+    border-radius: 3px;
+  }
+  
+  
+  .operatorsContainer {
+    display: flex;
+    justify-content: center;
+    width:240px;
+  }
+  
+  .clear,
+  .percentage,
+  .decimals,
+  .backspace,
+  .add,
+  .subtract,
+  .multiply,
+  .divide,
+  .equal,
+  .numberBtn {
+    background-color: rgba(188, 209, 241, 0.767);
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    width: 60px;
+    height: 60px;
+    border: 1px solid rgba(245, 245, 245, 0.247);
+  }
+  
+  .numbersContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 240px;
+    height: 240px;
+  }
+  
+  .equal {
+    width: 120px;
+    background-color: rgba(56, 102, 161, 0.842);
+  
+  }
+  
+  
+  .buttonsContainer {
+    border: 3px solid rgba(54, 124, 255, 0.568);
+    border-radius: 3px;
+  }
+  
+  .clear, .backspace {
+    background-color: rgba(206, 105, 68, 0.849);
+  }
+  
+  .percentage, .decimals, .add, .subtract, .multiply, .divide {
+    background-color: rgba(96, 148, 216, 0.76);
+  
+  }
+  
+  h1 {
+    color:rgba(240, 248, 255, 0.952);
+    font-size: 40px;
+    text-shadow: 1px 2px 4px rgba(122, 121, 121, 0.842);
+    margin: 50px;
+    text-decoration: underline;
+  }
+  
